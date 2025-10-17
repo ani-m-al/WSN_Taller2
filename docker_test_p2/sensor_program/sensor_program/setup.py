@@ -26,7 +26,8 @@ setup(
     'console_scripts': [
         'sensor_node = sensor_program.sensor_node:main',
         'reader_node = sensor_program.reader_node:main',
-	'reader_node1 = sensor_program.reader_node1:main',
+		'reader_node1 = sensor_program.reader_node1:main',
+		'plotter_node = sensor_program.plotter_node:main',
     ],
 }
 
